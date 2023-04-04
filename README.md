@@ -19,3 +19,12 @@ From Wikipedia:
 Start webpage on localhost by entering `npm start`
 
 ![Gif showcase of visualizer](/example.gif?raw=true "Gif showcase of virtualizer")
+
+## Credits
+
+This project was made with reference to:
+
+  Clément Mihailescu - Sorting Visualizer Tutorial (software engineering project)
+  https://www.youtube.com/watch?v=pFXYym4Wbkc&list=PL3lfepputJuGAaI3S7FvcBIutzHNtZ_pb
+  
+  https://www.digitalocean.com/community/tutorials/tower-of-hanoi
