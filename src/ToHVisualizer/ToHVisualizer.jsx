@@ -117,7 +117,7 @@ export default class ToHVisualizer extends React.Component {
 						onClick={() => this.setState({isRunning: true}, this.towerOfHanoi)}						
 						disabled={(this.state.isRunning) ? true : false}
 					>
-						Send It
+						Start
 					</button>
 				</div>
 			
