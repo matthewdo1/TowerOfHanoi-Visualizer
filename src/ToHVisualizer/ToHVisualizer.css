@@ -1,0 +1,114 @@
+.main-container {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+
+.header {
+	display: flex;
+	flex-direction: row;
+	z-index: 999;
+	background-color: lavender;
+	border-color: black;
+	border: 1px solid;
+	height: 150px;
+	align-items: center;
+}
+
+.game-container {
+	display: flex;
+	background-color: #696969;
+	flex-direction: row;
+	flex: 1;
+	align-items: center;
+}
+
+.disk {
+	height: 50px;
+	border: 1px solid;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: red;
+}
+
+.disk-container {
+	position: absolute;
+	bottom: 0;
+}
+
+.disk-rod {
+	width: 1vw;
+	height: 600px;
+	background-color: white;
+	border: 1px solid;
+	position: absolute;
+	bottom: 0;
+}
+
+.disk-counter {
+	font-size: 30px;
+}
+
+ /* CSS Columns from https://www.w3schools.com/css/css_website_layout.asp */
+.column {
+	display: flex;
+	float: left;
+	width: 33.33%;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+	width: 100%;
+  }
+}
+
+button {
+	background-color: white;
+	border: 2px solid #008CBA;
+	font-size: 20px;
+	width: 80px;
+	height: 40px;
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+button:hover {
+	background-color: #555555;
+	color: white;
+}
+
+.startButton {
+	background-color: #4CAF50;
+	font-size: 24px;
+	width: 200px;
+	height: 60px;
+	border: 2px solid black;
+}
+
+.startButton:hover {
+	background-color: #555555;
+	color: white;
+}
+
+.resetButton {
+	background-color: #f44336;
+	font-size: 24px;
+	width: 150px;
+	height: 50px;
+	border: 2px solid black;
+}
+
+.resetButton:hover {
+	background-color: #555555;
+	color: white;
+}
